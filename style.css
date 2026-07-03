@@ -1,0 +1,47 @@
+/* Skip Link */
+.skip-link{
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: white;
+    color: black;
+    padding: 10px;
+}
+
+.skip-link:focus{
+    top: 0;
+}
+
+/* Comment quy tắc li cũ */
+/*
+li{
+    display: inline;
+}
+*/
+
+nav{
+    display: inline-block;
+    width: 80%;
+}
+
+nav img{
+    width: 10%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.grid img{
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
